@@ -8,6 +8,9 @@ http://viacep.com.br/ws/xxxxxx-yyy/json/
 
 https://api.postmon.com.br/v1/cep/xxxxxxyyy
 
+url = "https://www.cepaberto.com/api/v3/cep?cep=01001000"
+headers = {'Authorization': 'Token token=foo'}
+
 Os requisitos para este desafio são:
 
 -   Acatar a API que entregar a resposta mais rápida e descartar a resposta mais lenta.
